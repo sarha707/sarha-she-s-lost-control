@@ -14,7 +14,7 @@ function preload(){
    img = loadImage('victorkk.png')
    img2 = loadImage('dague.png')
    sound = loadSound('joydivision.mp3')
-   video = createVideo('gothdance.mov')
+   video = createVideo('goth dance.mov')
 }
 
 
@@ -45,7 +45,7 @@ function draw() {
   let level = amp.getLevel();
   time += level * 0.2; 
 
-  background(0);             // ← UNIQUEMENT ICI
+  background(0);             // ← UNIQUEMENT IC
 resetGraphics();
   switch (currentEffect) {
     case 1: resetGraphics(); effet1(); break;
