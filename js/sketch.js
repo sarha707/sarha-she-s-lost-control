@@ -14,7 +14,7 @@ function preload(){
    img = loadImage('victorkk.png')
    img2 = loadImage('dague.png')
    sound = loadSound('joydivision.mp3')
-   video = createVideo('goth dance.mov')
+   video = createVideo('gothdance.mov')
 }
 
 
