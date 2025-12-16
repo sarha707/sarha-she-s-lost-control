@@ -14,7 +14,7 @@ function preload(){
    img = loadImage('victorkk.png')
    img2 = loadImage('dague.png')
    sound = loadSound('joydivision.mp3')
-   video = createVideo('goth dance.mov')
+   video = createVideo('gothdance.mov')
 }
 
 
@@ -84,7 +84,7 @@ function keyPressed(){
 
 function effet1(){
   let cnv = select('body');
-  cnv.style('background-image', "url('../red spiderweb.jpg')");
+  cnv.style('background-image', "url('redspiderweb.jpg')");
     image(video,0,0)
     noStroke()
   for (let x =0; x<width; x+=grille) 
@@ -153,7 +153,7 @@ function effet4(){
    clear()
    let grille5 =170
    let cnv = select('body');
-  cnv.style('background-image', "url('../viande.jpg')");
+  cnv.style('background-image', "url('viande.jpg')");
   blendMode(BLEND)
         //image(img2,0,0)
     noStroke()
@@ -236,7 +236,7 @@ function effet6(){
 
 function effet7(){
    let cnv = select('body');
-  cnv.style('background-image', "url('../creature.png')");
+  cnv.style('background-image', "url('creature.png')");
     blendMode(BLEND)
     image(img,0,0)
     noStroke()
